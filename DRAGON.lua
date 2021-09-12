@@ -3276,7 +3276,8 @@ keyboard = {}
 keyboard.inline_keyboard = {
 {{text = '  ❨  𝙴𝚇𝙴𝙵𝙰𝚁  ',url="t.me/eXeFaAR"},{text = '  𝚁𝙾𝙺𝚂  ❩ ',url="t.me/juust_oO"}},
 {{text = '  ❨  𝚃𝙰𝚆𝙰𝚂𝙾𝙻  ❩ ',url="t.me/juust_oOubot"}}, 
-{{text = '  ❨  𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙽𝙾𝚆  ❩ ',url="https://t.me/QW_Q1Q1"}}, 
+{{text = '  ❨  𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙽𝙾𝚆  ❩ ',url="https://t.me/QW_Q1Q1"}},
+}
 end
 
 if text == 'مين نصبلك' or text == 'عايزه بوت' or text == 'عايز بوت' then
@@ -14421,7 +14422,7 @@ local List = {
 ]],
 [[
 - 𓏬 𝐔𝐬𝐄𝐫 : #username 𓂅 .
-- 𓏬 𝐌𝐬𝐆  : #msgs 𓂅 .
+- 𓏬 ??𝐬𝐆  : #msgs 𓂅 .
 - 𓏬 𝐒𝐭𝐀 : #stast 𓂅 .
 - 𓏬 𝐈𝐃 : #id 𓂅 .
 ]],
