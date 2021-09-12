@@ -4245,7 +4245,8 @@ local Text = [[
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '《𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙽𝙾𝚆》', url="t.me/QW_Q1Q1"}}, 
+{{text = '《𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙽𝙾𝚆》', url="t.me/QW_Q1Q1"}},
+}
 end
 if text == 'العاب سناو' or text == 'العاب مطوره' or text == 'العاب متطوره' then  
 local Text = [[  
