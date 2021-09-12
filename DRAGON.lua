@@ -1360,6 +1360,7 @@ keyboard = {}
 keyboard.inline_keyboard = {
 {{text = 'الـمـطـور', url="http://t.me/"..sudos.UserName}}, 
 {{text = 'اضف البوت الي مجموعتك' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+}
 end
 
 if text == 'قسم مطورين السورس والمبرمجين' and DevSoFi(msg) then 
