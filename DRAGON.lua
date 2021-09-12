@@ -3265,9 +3265,9 @@ end
 end,nil)   
 end
 if text == 'سناو' or text == 'سورس' or text == 'السورس' or text == 'source' or text == 'يا سورس' or text == 'hogan' then 
+local Text = [[
  𖠪 اهلا ومرحبا بكم في سورس سناو 𖠪
  ]]
-local Text = [[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = '  ❨  𝙴𝚇𝙴𝙵𝙰𝚁  ',url="t.me/eXeFaAR"},{text = '  𝚁𝙾𝙺𝚂  ❩ ',url="t.me/juust_oO"}},
