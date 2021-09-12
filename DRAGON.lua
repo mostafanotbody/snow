@@ -1360,9 +1360,6 @@ keyboard = {}
 keyboard.inline_keyboard = {
 {{text = 'الـمـطـور', url="http://t.me/"..sudos.UserName}}, 
 {{text = 'اضف البوت الي مجموعتك' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
-}
-local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/sasa7_7/2&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == 'قسم مطورين السورس والمبرمجين' and DevSoFi(msg) then 
@@ -3279,9 +3276,6 @@ keyboard.inline_keyboard = {
 {{text = '  ❨  𝙴𝚇𝙴𝙵𝙰𝚁  ',url="t.me/eXeFaAR"},{text = '  𝚁𝙾𝙺𝚂  ❩ ',url="t.me/juust_oO"}},
 {{text = '  ❨  𝚃𝙰𝚆𝙰𝚂𝙾𝙻  ❩ ',url="t.me/juust_oOubot"}}, 
 {{text = '  ❨  𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙽𝙾𝚆  ❩ ',url="https://t.me/QW_Q1Q1"}}, 
-}
-local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/xxxcccvvbbnn/888&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == 'مين نصبلك' or text == 'عايزه بوت' or text == 'عايز بوت' then
@@ -3295,12 +3289,9 @@ keyboard.inline_keyboard = {
 {{text = ' 𝚃𝙰𝚆𝙰𝚂𝙾𝙻',url="t.me/juust_oOubot"}}, 
 {{text = '《𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙽𝙾𝚆》 ', url="t.me/QW_Q1Q1"}},
 {{text = 'اضف البوت الي مجموعتك' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
-}
-local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/sasa7_7/2&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
-if text == 'روكس' or text == 'مطور روكس' or text == 'صاحب السورس' or text == 'بوضي' or text == 'بيوضي' or text == 'body' then 
+if text == 'روكس' or text == 'مطور روكس' or text == 'صاحب السورس' or text == 'ريكس' or text == 'ركساوي' or text == 'recx' then 
 local msg_id = msg.id_/2097152/0.5  
 local Text = [[ 
 𝚁𝙾𝙺𝚂
@@ -4242,9 +4233,6 @@ local Text = [[
 keyboard = {}  
 keyboard.inline_keyboard = { 
 {{text = '《𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙽𝙾𝚆》', url="t.me/QW_Q1Q1"}}, 
-} 
-local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/sasa7_7/2&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == 'التواصل'  then
 database:del(bot_id..'Srt:Bot') 
@@ -4254,9 +4242,6 @@ local Text = [[
 keyboard = {}  
 keyboard.inline_keyboard = { 
 {{text = '《𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙽𝙾𝚆》', url="t.me/QW_Q1Q1"}}, 
-} 
-local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/sasa7_7/2&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == 'العاب سناو' or text == 'العاب مطوره' or text == 'العاب متطوره' then  
 local Text = [[  
