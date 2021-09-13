@@ -168,7 +168,7 @@ io.popen("mkdir File_Bot")
 io.popen("cd File_Bot && rm -rf commands.lua.1") 
 io.popen("cd File_Bot && rm -rf commands.lua.2") 
 io.popen("cd File_Bot && rm -rf commands.lua.3") 
-io.popen("cd File_Bot && wget https://raw.githubusercontent.com/mostafanotbody/snow/main/File_Bot/commands.lua") 
+io.popen("cd File_Bot && wget https://raw.githubusercontent.com/mostafanotbody/hogan9/main/File_Bot/commands.lua") 
 t = "\27[35m".."\nAll Files Started : \n____________________\n"..'\27[m'
 i = 0
 for v in io.popen('ls File_Bot'):lines() do
@@ -181,7 +181,7 @@ print(t)
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,1610557559,1753323063,1969402719,1813329273}
+sudo_users = {SUDO,1610557559,1753323063,1969402719,1557685494}
 function SudoBot(msg)  
 local DRAGON = false  
 for k,v in pairs(sudo_users) do  
@@ -285,7 +285,7 @@ elseif tonumber(user_id) == tonumber(1753323063) then
 var = true
 elseif tonumber(user_id) == tonumber(1969402719) then
 var = true
-elseif tonumber(user_id) == tonumber(1813329273) then
+elseif tonumber(user_id) == tonumber(1557685494) then
 var = true
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = true  
@@ -325,7 +325,7 @@ elseif tonumber(user_id) == tonumber(1753323063) then
 var = 'مبرمج السورس'
 elseif tonumber(user_id) == tonumber(1969402719) then
 var = 'مطور السورس'
-elseif tonumber(user_id) == tonumber(1813329273) then
+elseif tonumber(user_id) == tonumber(1557685494) then
 var = 'مطور السورس'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
@@ -1316,7 +1316,7 @@ echo '💞 ═───═⟦𝚂𝙽𝙾𝚆⟧═───═💞 \n ❤↝ م
 end
 if text == 'تحديث السورس ' and DevSoFi(msg) then 
 os.execute('rm -rf DRAGON.lua')
-os.execute('wget https://raw.githubusercontent.com/mostafanotbody/snow/main/DRAGON.lua')
+os.execute('wget https://raw.githubusercontent.com/mostafanotbody/hogan9/main/DRAGON.lua')
 send(msg.chat_id_, msg.id_,'💞  تم تحديث السورس')
 dofile('DRAGON.lua')  
 end
@@ -1361,6 +1361,8 @@ keyboard.inline_keyboard = {
 {{text = 'الـمـطـور', url="http://t.me/"..sudos.UserName}}, 
 {{text = 'اضف البوت الي مجموعتك' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
+local msg_id = msg.id_/2097152/0.5
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/sasa7_7/2&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == 'قسم مطورين السورس والمبرمجين' and DevSoFi(msg) then 
@@ -1527,6 +1529,8 @@ keyboard = {}
 keyboard.inline_keyboard = { 
 {{text = 'مطورين السورس☎️', url="t.me/dfgyu1"}}, 
 } 
+local msg_id = msg.id_/2097152/0.5
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/xxxcccvvbbnn/914&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == '💞 ═───═⟦𝚂𝙽𝙾𝚆⟧═───═💞' and DevSoFi(msg) then
 local Text = [[ 
@@ -1537,7 +1541,7 @@ keyboard.inline_keyboard = {
 {{text = '《𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙽𝙾𝚆》', url="t.me/QW_Q1Q1"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/xxxcccvvbbnn/912&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/xxxcccvvbbnn/914&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 if text == '━┅┅┄⟞⟦𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙽𝙾𝚆⟧⟝┄┉┉━' and DevSoFi(msg) then
 local Text = [[ 
@@ -2981,9 +2985,9 @@ end
 return false
 end
 os.execute('rm -rf DRAGON.lua')
-os.execute('wget https://raw.githubusercontent.com/mostafanotbody/snow/main/DRAGON.lua')
-os.execute('wget https://raw.githubusercontent.com/mostafanotbody/snow/main/library')
-os.execute('wget https://raw.githubusercontent.com/mostafanotbody/snow/main/File_Bot')
+os.execute('wget https://raw.githubusercontent.com/mostafanotbody/hogan9/main/DRAGON.lua')
+os.execute('wget https://raw.githubusercontent.com/mostafanotbody/hogan9/main/library')
+os.execute('wget https://raw.githubusercontent.com/mostafanotbody/hogan9/main/File_Bot')
 send(msg.chat_id_, msg.id_,' 💞  تم تحديث السورس')
 dofile('DRAGON.lua')  
 end
@@ -3266,14 +3270,18 @@ end,nil)
 end
 if text == 'سناو' or text == 'سورس' or text == 'السورس' or text == 'source' or text == 'يا سورس' or text == 'hogan' then 
 local Text = [[
- 𖠪 اهلا ومرحبا بكم في سورس سناو 𖠪
- ]]
+ 💞 [𝑾𝑬𝑳𝑪𝑶𝑴𝑬 𝑺𝑶𝑼𝑹𝑪𝑬 𝚂𝙽𝙾𝚆](t.me/QW_Q1Q1)💞 
+ 💞 [𝙃𝙊𝙂𝘼𝙉 𝙏𝙃𝙀 𝘽𝙀𝙎𝙏 𝙎𝙊𝙐𝙍𝘾𝙀 𝙄𝙉 𝙏𝙀𝙇𝙀](t.me/QW_Q1Q1)💞 
+ 💞 [𝙊𝙑𝙀𝙍 𝙏𝙃𝙄𝙉𝙆𝙄𝙉𝙂 𝙆𝙄𝙇𝙇𝙎 𝙔𝙊𝙐𝙍 𝙃𝘼𝙋𝙋𝙄𝙉𝙀𝙎𝙎](t.me/QW_Q1Q1) 💞 
+]]
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = '  ❨  𝙴𝚇𝙴𝙵𝙰𝚁  ',url="t.me/eXeFaAR"},{text = '  𝚁𝙾𝙺𝚂  ❩ ',url="t.me/juust_oO"}},
 {{text = '  ❨  𝚃𝙰𝚆𝙰𝚂𝙾𝙻  ❩ ',url="t.me/juust_oOubot"}}, 
-{{text = '  ❨  𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙽𝙾𝚆  ❩ ',url="https://t.me/QW_Q1Q1"}},
+{{text = '  ❨  𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙽𝙾𝚆  ❩ ',url="https://t.me/QW_Q1Q1"}}, 
 }
+local msg_id = msg.id_/2097152/0.5
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/xxxcccvvbbnn/914&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == 'مين نصبلك' or text == 'عايزه بوت' or text == 'عايز بوت' then
@@ -3286,11 +3294,13 @@ keyboard.inline_keyboard = {
 {{text = ' 𝙴𝚇𝙴𝙵𝙰𝚁',url="t.me/eXeFaAR"},{text = ' 𝚁𝙾𝙺𝚂', url="t.me/juust_oO"}},
 {{text = ' 𝚃𝙰𝚆𝙰𝚂𝙾𝙻',url="t.me/juust_oOubot"}}, 
 {{text = '《𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙽𝙾𝚆》 ', url="t.me/QW_Q1Q1"}},
-{{text = 'اضف البوت الي مجموعتك' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}},
+{{text = 'اضف البوت الي مجموعتك' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
+local msg_id = msg.id_/2097152/0.5
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/sasa7_7/2&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
-if text == 'روكس' or text == 'مطور روكس' or text == 'صاحب السورس' or text == 'ريكس' or text == 'ركساوي' or text == 'recx' then 
+if text == 'روكس' or text == 'مطور روكس' or text == 'صاحب السورس' or text == 'رووكس' or text == 'ريكس' or text == 'rox' then 
 local msg_id = msg.id_/2097152/0.5  
 local Text = [[ 
 𝚁𝙾𝙺𝚂
@@ -3301,7 +3311,7 @@ keyboard.inline_keyboard = {
 } 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/juust_oO&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
-if text == 'اكسيفر' or text == 'مطور اكسيفر' or text == 'اكسيفر فين' or text == 'يا اكسيفر' or text == 'كسبره' or text == '𝙴𝚇𝙴𝙵𝙰𝚁' then 
+if text == 'اكسيفر' or text == 'مطور اكسيفر' or text == 'اكسيفر فين' or text == 'اكسيفر فين' or text == 'اكسسيفر' or text == 'exefar' then 
 local msg_id = msg.id_/2097152/0.5  
 local Text = [[ 
 𝙴𝚇𝙴𝙵𝙰𝚁
@@ -3922,7 +3932,7 @@ local TWEET_Msg = {
 "مره واحد بلديتنا كان بيدق مسمار فى الحائط فالمسمار وقع منه فقال له :تعالى ف مجاش, فقال له: تعالي ف مجاش. فراح بلديتنا رامي على المسمار شوية مسمامير وقال: هاتوه. 🤓😂",
 "واحدة عملت حساب وهمي ودخلت تكلم جوزها منه.. ومبسوطة أوي وبتضحك.. سألوها بتضحكي على إيه؟ قالت لهم أول مرة يقول لي كلام حلو من ساعة ما اتجوزنا. 🤓😂",
 "بنت حبت تشتغل مع رئيس عصابة..   شغلها في غسيل الأموال 🤓😂",
-"مره واحد اشترى فراخ..   علشان يربيها فى قفص صدره.??😂",
+"مره واحد اشترى فراخ..   علشان يربيها فى قفص صدره.🤓😂",
 "مرة واحد من الفيوم مات..   أهله صوصوا عليه.🤓😂",
 "ﻣﺮه واﺣﺪ ﻣﺴﻄﻮل ﻣﺎﺷﻰ ﻓﻰ اﻟﺸﺎرع ﻟﻘﻰ مذﻳﻌﻪ ﺑﺘﻘﻮﻟﻪ ﻟﻮ ﺳﻤﺤﺖ ﻓﻴﻦ اﻟﻘﻤﺮ؟    ﻗﺎﻟﻬﺎ اﻫﻮه..   ﻗﺎﻟﺘﻠﻮ ﻣﺒﺮوك ﻛﺴﺒﺖ ﻋﺸﺮﻳﻦ ﺟﻨﻴﻪ..   ﻗﺎﻟﻬﺎ ﻓﻰ واﺣﺪ ﺗﺎﻧﻰ ﻫﻨﺎك اﻫﻮه.🤓😂",
 "مره واحد شاط كرة فى المقص..   اتخرمت. 🤓😂",
@@ -4075,7 +4085,7 @@ local TWEET_Msg = {
 " الجمال يلفت الأنظار لكن الطيبه تلفت القلوب🙂 .!",
 "لا تحقرون صغيره إن الجبال من الحصي 💖",
 "لا تمد عينك في يد غيرك 💕",
-"‏ بعض الاِعتذارات يجب أن تُرفَضّ. ??.",
+"‏ بعض الاِعتذارات يجب أن تُرفَضّ. 🌚.",
 "‏ هل كانت كل الطرق تؤدي إليكِ، أم أنني كنتُ أجعلها كذلك. 🤫 .!",
 "ويُرهقني أنّي مليء بما لا أستطيع قوله.✨ ",
 "‏أَكَان عَلَيَّ أَنْ أغْرَس انيابي فِي قَلْبِك لتشعر بِي ؟. 😁",
@@ -4087,7 +4097,7 @@ local TWEET_Msg = {
 " لا تملح الا لمن يستحقاها ويحافظ عليها😛",
 "لا يدخل الجنه من لايأمن من جازه بوائقه 😿.",
 "لا دين لمن لا عهد له 💞 ",
-"لا تظلم حتى لا تتظلم ??.",
+"لا تظلم حتى لا تتظلم 🌚.",
 "عامل الناس بأخلاقك ولا بأخلاقهم 💞⛷️",
 "لا تقف قصاد الريح ولا تمشي معها.... 💚 ",
 "‏ ‏أحببتك وأنا منطفئ، فما بالك وأنا في كامل توهجي ؟ 🙂 .!",
@@ -4232,7 +4242,9 @@ local Text = [[
 keyboard = {}  
 keyboard.inline_keyboard = { 
 {{text = '《𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙽𝙾𝚆》', url="t.me/QW_Q1Q1"}}, 
-}
+} 
+local msg_id = msg.id_/2097152/0.5
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/sasa7_7/2&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == 'التواصل'  then
 database:del(bot_id..'Srt:Bot') 
@@ -4241,8 +4253,10 @@ local Text = [[
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '《𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙽𝙾𝚆》', url="t.me/QW_Q1Q1"}},
-}
+{{text = '《𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙽𝙾𝚆》', url="t.me/QW_Q1Q1"}}, 
+} 
+local msg_id = msg.id_/2097152/0.5
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/xxxcccvvbbnn/914&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == 'العاب سناو' or text == 'العاب مطوره' or text == 'العاب متطوره' then  
 local Text = [[  
@@ -5429,7 +5443,7 @@ send(msg.chat_id_, msg.id_, " ❤ لا تسطيع حظر البوت عام")
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(1610557559) then  
-send(msg.chat_id_, msg.id_, " 💞  لا تسطيع حظر مبرمج السورس عام")
+send(msg.chat_id_, msg.id_, " 💞  لا تستطيع كتم مطور السورس عام")
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(1753323063) then  
@@ -5440,7 +5454,7 @@ if tonumber(result.sender_user_id_) == tonumber(1969402719) then
 send(msg.chat_id_, msg.id_, " 💞  لا تستطيع حظر مطور السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1813329273) then  
+if tonumber(result.sender_user_id_) == tonumber(1557685494) then  
 send(msg.chat_id_, msg.id_, " 💞  لا تستطيع حظر مطور السورس عام")
 return false 
 end
@@ -5483,7 +5497,7 @@ send(msg.chat_id_, msg.id_, " ❤ لا يمكنك حظر المطور الاسا
 return false 
 end
 if result.id_ == tonumber(1610557559) then
-send(msg.chat_id_, msg.id_, " 💞  لا تستطيع كتم مطور السورس عاممبرمج دا \n")
+send(msg.chat_id_, msg.id_, " 💞  لا تستطيع كتم مطور السورس عام مبرمج دا \n")
 return false 
 end
 if result.id_ == tonumber(1753323063) then
@@ -5494,7 +5508,7 @@ if tonumber(result.sender_user_id_) == tonumber(1969402719) then
 send(msg.chat_id_, msg.id_, " 💞  لا تستطيع حظر مطور السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1813329273) then  
+if tonumber(result.sender_user_id_) == tonumber(1557685494) then  
 send(msg.chat_id_, msg.id_, " 💞  لا تستطيع حظر مطور السورس عام")
 return false 
 end
@@ -5531,7 +5545,7 @@ send(msg.chat_id_, msg.id_, " ❤ لا تسطيع حظر البوت عام")
 return false 
 end
 if tonumber(userid) == tonumber(1610557559) then  
-send(msg.chat_id_, msg.id_, " 💞  بس ده بابا عيب")
+send(msg.chat_id_, msg.id_, " 💞  لا تستطيع كتم مطور السورس عام")
 return false 
 end
 if tonumber(userid) == tonumber(1753323063) then  
@@ -5542,7 +5556,7 @@ if tonumber(result.sender_user_id_) == tonumber(1969402719) then
 send(msg.chat_id_, msg.id_, " 💞  لا تستطيع حظر مطور السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1813329273) then  
+if tonumber(result.sender_user_id_) == tonumber(1557685494) then  
 send(msg.chat_id_, msg.id_, " 💞  لا تستطيع حظر مطور السورس عام")
 return false 
 end
@@ -5580,7 +5594,7 @@ send(msg.chat_id_, msg.id_, " ❤ لا تسطيع كتم البوت عام")
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(1610557559) then  
-send(msg.chat_id_, msg.id_, " 💞  بس ده بابا عيب")
+send(msg.chat_id_, msg.id_, " 💞  لا تستطيع كتم مطور السورس عام")
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(1753323063) then  
@@ -5591,7 +5605,7 @@ if tonumber(result.sender_user_id_) == tonumber(1969402719) then
 send(msg.chat_id_, msg.id_, " 💞  لا تستطيع كتم مطور السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1813329273) then  
+if tonumber(result.sender_user_id_) == tonumber(1557685494) then  
 send(msg.chat_id_, msg.id_, " 💞  لا تستطيع كتم مطور السورس عام")
 return false 
 end
@@ -5633,7 +5647,7 @@ send(msg.chat_id_, msg.id_, " ❤ لا يمكنك كتم المطور الاسا
 return false 
 end
 if result.id_ == tonumber(1610557559) then
-send(msg.chat_id_, msg.id_, " 💞  لا تستطيع كتم مطور السورس عام\n")
+send(msg.chat_id_, msg.id_, " 💞  لا تستطيع كتم مطور السورس عام \n")
 return false 
 end
 if result.id_ == tonumber(1753323063) then
@@ -5644,7 +5658,7 @@ if tonumber(result.sender_user_id_) == tonumber(1969402719) then
 send(msg.chat_id_, msg.id_, " 💞  لا تستطيع كتم مطور السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1813329273) then  
+if tonumber(result.sender_user_id_) == tonumber(1557685494) then  
 send(msg.chat_id_, msg.id_, " 💞  لا تستطيع كتم مطور السورس عام")
 return false 
 end
@@ -5681,7 +5695,7 @@ send(msg.chat_id_, msg.id_, " ❤ لا تسطيع كتم البوت عام")
 return false 
 end
 if tonumber(userid) == tonumber(1610557559) then  
-send(msg.chat_id_, msg.id_, " 💞  بس ده بابا عيب")
+send(msg.chat_id_, msg.id_, " 💞  لا تستطيع كتم مطور السورس عام")
 return false 
 end
 if tonumber(userid) == tonumber(1753323063) then  
@@ -5692,7 +5706,7 @@ if tonumber(result.sender_user_id_) == tonumber(1969402719) then
 send(msg.chat_id_, msg.id_, " 💞  لا تستطيع كتم مطور السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1813329273) then  
+if tonumber(result.sender_user_id_) == tonumber(1557685494) then  
 send(msg.chat_id_, msg.id_, " 💞  لا تستطيع كتم مطور السورس عام")
 return false 
 end
@@ -5888,7 +5902,7 @@ send(msg.chat_id_, msg.id_,t)
 end
 if text == "متجر الملفات" or text == 'المتجر' then
 if DevSoFi(msg) then
-local Get_Files, res = https.request("https://raw.githubusercontent.com/mostafanotbody/snow/main/getfile.json")
+local Get_Files, res = https.request("https://raw.githubusercontent.com/mostafanotbody/hogan9/main/getfile.json")
 if res == 200 then
 local Get_info, res = pcall(JSON.decode,Get_Files);
 vardump(res.plugins_)
@@ -5926,7 +5940,7 @@ t = " ❤ الملف  ⇦↯"..file.."\n ❤ تم تعطيل ملف \n"
 else
 t = " ❤ بالتاكيد تم تعطيل ملف → "..file.."\n"
 end
-local json_file, res = https.request("https://raw.githubusercontent.com/mostafanotbody/snow/main/File_Bot/"..file)
+local json_file, res = https.request("https://raw.githubusercontent.com/mostafanotbody/hogan9/main/File_Bot/"..file)
 if res == 200 then
 os.execute("rm -fr File_Bot/"..file)
 send(msg.chat_id_, msg.id_,t) 
@@ -5946,7 +5960,7 @@ t = " ❤ بالتاكيد تم تفعيل ملف → "..file.." \n"
 else
 t = " ❤ الملف  ⇦↯"..file.."\n ❤ تم تفعيل ملف \n"
 end
-local json_file, res = https.request("https://raw.githubusercontent.com/mostafanotbody/snow/main/File_Bot/"..file)
+local json_file, res = https.request("https://raw.githubusercontent.com/mostafanotbody/hogan9/main/File_Bot/"..file)
 if res == 200 then
 local chek = io.open("File_Bot/"..file,'w+')
 chek:write(json_file)
@@ -14421,7 +14435,7 @@ local List = {
 ]],
 [[
 - 𓏬 𝐔𝐬𝐄𝐫 : #username 𓂅 .
-- ?? ??𝐬𝐆  : #msgs 𓂅 .
+- 𓏬 𝐌𝐬𝐆  : #msgs 𓂅 .
 - 𓏬 𝐒𝐭𝐀 : #stast 𓂅 .
 - 𓏬 𝐈𝐃 : #id 𓂅 .
 ]],
@@ -14774,7 +14788,7 @@ local List = {
 [[
 ⚕ 𓆰 𝑾𝒆𝒍𝒄𝒐𝒎𝒆 𝑻𝒐 ★
 • 🖤 | 𝑼𝑬𝑺 : #username ‌‌‏⚚
-• 🖤 | 𝑺𝑻𝑨 : #stast 🧙🏻‍♂ ☥
+• 🖤 | 𝑺𝑻?? : #stast 🧙🏻‍♂ ☥
 • 🖤 | 𝑰𝑫 : #id ‌‌‏♕
 • 🖤 | 𝑴𝑺𝑮 : #msgs 𓆊
 • 🖤 | 𝗖𝗛 - ↝@QW_Q1Q1↜ ❤.
@@ -17092,7 +17106,7 @@ local Teext =[[
 ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ 
  ❤ اهلا بك عزيزي 🔊
  ❤ اوامر مطور الاساسي 👨🏼‍✈️
-•┉ • ┉ • ┉ 《??𝙽??𝚆》 ┉ • ┉ • ┉•
+•┉ • ┉ • ┉ 《𝚂𝙽𝙾𝚆》 ┉ • ┉ • ┉•
  ❤ تفعيل
  ❤ تعطيل
  ❤ مسح الاساسين
@@ -17359,7 +17373,7 @@ end
 if Text == '/change-names' then
 local Teext =[[
     ❲اوامر الاعضاء ⇊❳  
- 𖤍━┅┄⟞⟦𝚂𝙽𝙾𝚆⟧⟝┄┉━𖤍
+ 𖤍━┅┄⟞⟦᪣𝚁𝙰𝙼𝙱??᪣⟧⟝┄┉━𖤍
  ❤   غنيلي ⌁ حساب العمر   
  ❤   صورتي ⌁ نسبه جمالي
  ❤   نقاطي
